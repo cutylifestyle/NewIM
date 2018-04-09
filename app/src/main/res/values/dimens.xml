@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--字体大小-->
+    <dimen name="sp_20">20sp</dimen>
+    <!--控件尺寸大小-->
+    <dimen name="dp_20">20dp</dimen>
+</resources>
