@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/vector_maimai">
+
+    <target
+        android:animation="@animator/animator_splash"
+        android:name="maimai_path_1"/>
+
+    <target
+        android:animation="@animator/animator_splash"
+        android:name="maimai_path_2"/>
+
+    <target
+        android:animation="@animator/animator_splash"
+        android:name="maimai_path_3"/>
+
+    <target
+        android:animation="@animator/animator_splash"
+        android:name="maimai_path_4"/>
+
+    <target
+        android:animation="@animator/animator_splash"
+        android:name="maimai_path_5"/>
+
+    <target
+        android:animation="@animator/animator_splash"
+        android:name="maimai_path_6"/>
+</animated-vector>
