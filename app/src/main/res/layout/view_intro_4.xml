@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_1"
+        android:layout_width="@dimen/x174"
+        android:layout_height="@dimen/x73"
+        android:layout_marginStart="@dimen/x20"
+        android:layout_marginTop="@dimen/x35"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/intro4_item_1" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_3"
+        android:layout_width="@dimen/x124"
+        android:layout_height="@dimen/x74"
+        android:layout_marginEnd="@dimen/x5"
+        android:layout_marginTop="@dimen/x100"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/intro4_item_3" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_7"
+        android:layout_width="@dimen/x179"
+        android:layout_height="@dimen/x29"
+        android:layout_marginBottom="@dimen/x40"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/intro4_item_7" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_4"
+        android:layout_width="@dimen/x177"
+        android:layout_height="@dimen/x166"
+        android:layout_marginBottom="@dimen/x40"
+        android:layout_marginStart="@dimen/x23"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/intro4_item_4" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_6"
+        android:layout_width="@dimen/x78"
+        android:layout_height="@dimen/x75"
+        android:layout_marginBottom="@dimen/x30"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/intro4_item_6" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_5"
+        android:layout_width="@dimen/x286"
+        android:layout_height="@dimen/x26"
+        android:layout_marginBottom="@dimen/x19"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/intro4_item_5" />
+</android.support.constraint.ConstraintLayout>
