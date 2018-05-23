@@ -14,9 +14,11 @@
         android:contentDescription="@string/app_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/intro3_item_1" />
+        app:srcCompat="@drawable/intro3_item_1"
+        app:x_in="1.5"
+        app:x_out="1.5"/>
 
-    <ImageView
+    <android.support.v7.widget.AppCompatImageView
         android:id="@+id/iv_2"
         android:layout_width="@dimen/x165"
         android:layout_height="@dimen/x68"
@@ -25,7 +27,9 @@
         android:contentDescription="@string/app_name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/intro3_item_2" />
+        app:srcCompat="@drawable/intro3_item_2"
+        app:x_in="1"
+        app:x_out="1"/>
 
     <android.support.v7.widget.AppCompatImageView
         android:id="@+id/iv_3"
@@ -36,7 +40,9 @@
         android:contentDescription="@string/app_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/intro3_item_3" />
+        app:srcCompat="@drawable/intro3_item_3"
+        app:x_in="1.3"
+        app:x_out="1.3" />
 
     <android.support.v7.widget.AppCompatImageView
         android:id="@+id/iv_4"
@@ -46,7 +52,9 @@
         android:contentDescription="@string/app_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/intro3_item_4" />
+        app:srcCompat="@drawable/intro3_item_4"
+        app:x_in="1"
+        app:x_out="1" />
 
     <android.support.v7.widget.AppCompatImageView
         android:id="@+id/iv_5"
@@ -57,7 +65,9 @@
         android:contentDescription="@string/app_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/intro3_item_5" />
+        app:srcCompat="@drawable/intro3_item_5"
+        app:x_in="1.1"
+        app:x_out="1.1"/>
 
     <android.support.v7.widget.AppCompatImageView
         android:id="@+id/iv_7"
@@ -67,7 +77,11 @@
         android:contentDescription="@string/app_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/intro3_item_7" />
+        app:srcCompat="@drawable/intro3_item_7"
+        app:a_in="1"
+        app:a_out="1"
+        app:x_in="1"
+        app:x_out="1" />
 
     <android.support.v7.widget.AppCompatImageView
         android:id="@+id/iv_6"
@@ -78,6 +92,10 @@
         android:contentDescription="@string/app_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/intro3_item_6" />
+        app:srcCompat="@drawable/intro3_item_6"
+        app:a_in="0.8"
+        app:a_out="0.8"
+        app:x_in="0.8"
+        app:x_out="0.8"/>
 
 </android.support.constraint.ConstraintLayout>
