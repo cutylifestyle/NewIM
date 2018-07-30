@@ -21,10 +21,9 @@
 
     <application
         android:name=".IMApp"
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
@@ -56,14 +55,19 @@
 
         <activity android:name=".view.activities.HomeActivity" />
         <activity android:name=".view.activities.SplashActivity">
-        </activity>
-        <activity android:name=".view.activities.GuidePageActivity">
             <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".view.activities.GuidePageActivity" />
+        <activity android:name=".view.activities.LoginActivity" />
+        <activity android:name=".view.activities.base.RxBaseActivity" />
+        <activity android:name=".view.activities.RegisterAccActivity" />
+        <activity android:name=".view.activities.ForgetPwActivity" />
+        <activity android:name=".view.activities.base.ImmerseBaseActivity"></activity>
     </application>
 
 </manifest>

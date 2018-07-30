@@ -15,6 +15,8 @@ import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.util.Pair;
 import android.view.View;
 
+import com.sixin.im.util.Utils;
+
 import java.util.List;
 
 /**

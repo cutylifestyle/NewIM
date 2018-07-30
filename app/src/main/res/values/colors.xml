@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary">#fcfcfc</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#007fff</color>
     <!--白色-->
     <color name="white">#FFFFFF</color>
+    <!--主题色浅蓝色-->
+    <color name="themeColor">#007fff</color>
+    <!--登录按钮未点击时的背景色-->
+    <color name="bg_unpressed_login_btn">#006cd9</color>
+    <!--登录按钮点击时的背景色-->
+    <color name="bg_pressed_login_btn">#0059b2</color>
+    <!--忘记密码的字体颜色-->
+    <color name="sky_blue_forget_password">#77bbff</color>
+    <!--注册账号的字体颜色-->
+    <color name="light_blue_register_acc">#cae4ff</color>
+    <!--三方登录字体颜色-->
+    <color name="deep_blue_other_login_mode">#004889</color>
+    <!--登录页面底部线条颜色-->
+    <color name="deep_blue_line">#004889</color>
+    <!--状态栏颜色-->
+    <color name="color_status_bar">#0072e5</color>
 </resources>

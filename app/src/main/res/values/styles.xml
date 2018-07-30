@@ -8,4 +8,15 @@
         <item name="android:windowIsTranslucent">true</item>
     </style>
 
+    <!--登录页面编辑框的样式-->
+    <style name="EtStyle">
+        <item name="android:background">@drawable/bg_login_et</item>
+        <item name="android:padding">@dimen/x9</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/x13</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

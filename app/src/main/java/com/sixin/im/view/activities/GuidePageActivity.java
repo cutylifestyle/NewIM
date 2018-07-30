@@ -7,6 +7,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 
 import com.sixin.im.Constant;
+import com.sixin.im.IMApp;
 import com.sixin.im.R;
 import com.sixin.im.util.activityutil.ActivityUtils;
 import com.sixin.im.util.sharedpreferencesutil.IPreference;
@@ -58,5 +59,11 @@ public class GuidePageActivity extends Activity {
     private void startActivity(Class<?> clazz){
         ActivityUtils.startActivity(clazz);
         finish();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        IMApp.getRefWatcher(getApplicationContext()).watch(this);
     }
 }
